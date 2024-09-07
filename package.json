@@ -1,0 +1,50 @@
+{
+    "name": "WA-GroqAI",
+    "version": "1.0.0",
+    "description": "WhatsApp Bot Using GroqAI with Lib Baileys Multi Device",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "termux",
+      "whatsapp-groqai",
+      "whatsapp-bot",
+      "whatsapp-baileys",
+      "baileys-md",
+      "bot-wa",
+      "bot-md",
+      "whatsapp-multi-device"
+    ],
+    "base": "https://github.com/Sansekai/Wa-OpenAI",
+    "author": "Maulana",
+    "license": "MIT",
+    "dependencies": {
+      "@hapi/boom": "^10.0.0",
+      "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
+      "awesome-phonenumber": "^2.64.0",
+      "axios": "^1.3.4",
+      "chalk": "^4.1.2",
+      "crypto": "^1.0.1",
+      "figlet": "^1.5.2",
+      "fs": "0.0.1-security",
+      "lodash": "^4.17.21",
+      "groq-sdk": "^0.7.0",
+      "pino": "^7.0.5",
+      "qrcode-terminal": "^0.12.0",
+      "util": "^0.12.4"
+    },
+    "directories": {
+      "lib": "lib",
+      "src": "src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maulananais/WA-GroqAI.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maulananais/WA-GroqAI/issues"
+    },
+    "homepage": "https://github.com/maulananais/WA-GroqAI#readme"
+  }
