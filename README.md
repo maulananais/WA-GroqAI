@@ -3,6 +3,9 @@
 2. [Wa-OpenAI](https://github.com/Sansekai/Wa-OpenAI)
 
 ---
+# **WA-GroqAI**
+
+Ini adalah bot WhatsApp yang menggunakan Groq API untuk memberikan respon berbasis AI, serta [Baileys](https://github.com/WhiskeySockets/Baileys) sebagai library utama untuk mengelola interaksi WhatsApp.
 
 ### Cara Penggunaan di Desktop/VPS
 
