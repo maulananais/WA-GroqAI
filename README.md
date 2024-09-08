@@ -30,7 +30,7 @@
 
 5. **Atur API Groq**
    Buka file `key.json` dan masukkan API key Groq yang telah Anda dapatkan:
-   ```json
+   ```bash
    {
      "GROQ_API_KEY": "your_api_key_here"
    }
