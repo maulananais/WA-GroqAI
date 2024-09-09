@@ -71,9 +71,10 @@ Perintah yang bisa digunakan `.ai tulis perintahmu disini`
    ```
 
 5. **Atur API Groq**
+   
    Edit file `key.json` dan masukkan API key Groq Anda.
 
-6. **Jalankan Bot**
+7. **Jalankan Bot**
    ```bash
    node index.js
    ```
