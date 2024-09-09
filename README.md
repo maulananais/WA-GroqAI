@@ -6,6 +6,8 @@
 # **WA-GroqAI**
 
 Ini adalah bot WhatsApp yang menggunakan Groq API untuk memberikan respon berbasis AI, serta [Baileys](https://github.com/WhiskeySockets/Baileys) sebagai library utama untuk mengelola interaksi WhatsApp.
+Untuk pembuatan API bisa disini [Groq API](https://console.groq.com/keys).
+Perintah yang bisa digunakan `.ai tulis perintahmu disini`
 
 ### Cara Penggunaan di Desktop/VPS
 
