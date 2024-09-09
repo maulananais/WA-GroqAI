@@ -98,22 +98,6 @@ Contoh: .ai Siapa presiden Indonesia?`)
             m.reply("Maaf, sepertinya ada yang error: " + error.message);
           }
           break;
-        case "img": case "ai-img": case "image": case "images": case "groq-img":
-          try {
-            if (setting.GROQ_API_KEY === "ISI_APIKEY_GROQ_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website Groq.");
-            if (!text) return reply(`Membuat gambar dari AI.\n\nContoh:\n${prefix}${command} Wooden house on snow mountain`);
-            
-            // Catatan: Saat ini, Groq tidak menyediakan layanan pembuatan gambar.
-            // Kode ini perlu disesuaikan jika Groq menambahkan fitur ini di masa depan.
-            m.reply("Maaf, fitur pembuatan gambar belum tersedia di Groq AI.");
-          } catch (error) {
-            console.log(error);
-            m.reply("Maaf, sepertinya ada yang error: " + error.message);
-          }
-          break;
-          case "sc": case "script": case "scbot":
-           m.reply("Bot ini menggunakan script dari https://github.com/Sansekai/Wa-OpenAI, dengan perubahan untuk menggunakan GroqAI.");
-          break
         default: {
           if (isCmd2 && budy.toLowerCase() != undefined) {
             if (m.chat.endsWith("broadcast")) return;
