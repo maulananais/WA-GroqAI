@@ -41,7 +41,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/maulananais/WA-GroqAI.git"
+      "url": "https://github.com/maulananais/WA-GroqAI.git"
     },
     "bugs": {
       "url": "https://github.com/maulananais/WA-GroqAI/issues"
